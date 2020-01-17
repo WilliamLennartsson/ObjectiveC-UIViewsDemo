@@ -16,6 +16,7 @@
 		78626F9323D1B58E004093EF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 78626F9223D1B58E004093EF /* main.m */; };
 		78626F9D23D1B58E004093EF /* DemoViewsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 78626F9C23D1B58E004093EF /* DemoViewsTests.m */; };
 		78626FA823D1B58E004093EF /* DemoViewsUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 78626FA723D1B58E004093EF /* DemoViewsUITests.m */; };
+		78626FB723D1B651004093EF /* DrawingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 78626FB623D1B651004093EF /* DrawingView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,8 @@
 		78626FA323D1B58E004093EF /* DemoViewsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DemoViewsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		78626FA723D1B58E004093EF /* DemoViewsUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DemoViewsUITests.m; sourceTree = "<group>"; };
 		78626FA923D1B58E004093EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		78626FB523D1B651004093EF /* DrawingView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DrawingView.h; sourceTree = "<group>"; };
+		78626FB623D1B651004093EF /* DrawingView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DrawingView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +114,8 @@
 				78626F8623D1B58A004093EF /* ViewController.h */,
 				78626F8723D1B58A004093EF /* ViewController.m */,
 				78626F8923D1B58A004093EF /* Main.storyboard */,
+				78626FB523D1B651004093EF /* DrawingView.h */,
+				78626FB623D1B651004093EF /* DrawingView.m */,
 				78626F8C23D1B58E004093EF /* Assets.xcassets */,
 				78626F8E23D1B58E004093EF /* LaunchScreen.storyboard */,
 				78626F9123D1B58E004093EF /* Info.plist */,
@@ -270,6 +275,7 @@
 				78626F8823D1B58A004093EF /* ViewController.m in Sources */,
 				78626F8223D1B58A004093EF /* AppDelegate.m in Sources */,
 				78626F9323D1B58E004093EF /* main.m in Sources */,
+				78626FB723D1B651004093EF /* DrawingView.m in Sources */,
 				78626F8523D1B58A004093EF /* SceneDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
